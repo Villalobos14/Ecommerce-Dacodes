@@ -1,17 +1,17 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from './pages/Home.jsx'
-import Register from "./pages/Register.jsx";
-import Login from "./pages/Login.jsx";
-import Cart from "./pages/Cart.jsx";
-import Error from "./pages/Error.jsx";
-import ListaArticulos from "./pages/ListaArticulos.jsx";
-import Resumen from "./pages/Resumen.jsx";
-import Collares from "./pages/Articulos/Collares.jsx";
-import Bolsas from "./pages/Articulos/Bolsas.jsx";
-import Carteras from "./pages/Articulos/Carteras.jsx";
-import Mochilas from "./pages/Articulos/Mochilas.jsx";
-import Relojes from "./pages/Articulos/Relojes.jsx";
+import Home from '../pages/Home.jsx'
+import Register from "../pages/Register.jsx";
+import Login from "../pages/Login.jsx";
+import Cart from "../pages/Cart.jsx";
+import Error from "../pages/Error.jsx";
+import ListaArticulos from "../pages/ListaArticulos.jsx";
+import Resumen from "../pages/Resumen.jsx";
+import Collares from "../pages/Articulos/Collares.jsx";
+import Bolsas from "../pages/Articulos/Bolsas.jsx";
+import Carteras from "../pages/Articulos/Carteras.jsx";
+import Mochilas from "../pages/Articulos/Mochilas.jsx";
+import Relojes from "../pages/Articulos/Relojes.jsx";
 
 export default function Router() {
     return (
