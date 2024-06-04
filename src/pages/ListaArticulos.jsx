@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import TodosArticulos from '../components/Articulos/TodosArticulos'
 import Footer from '../components/Footer'
-//import axios from '../libs/axios'
+import axios from '../libs/axios'
 
 export default function ListaArticulos() {
     const [productos, setProductos] = useState([])

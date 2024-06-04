@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-//import axios from "../../libs/axios";
+import axios from "../../libs/axios"; 
 
 
 export default function MasVendidos() {

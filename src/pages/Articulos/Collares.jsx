@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import ArticulosCategoria from '../../components/Articulos/ArticulosCategoria'
-//import axios from '../../libs/axios'
+import axios from '../../libs/axios'
 
 
 export default function Collares() {
